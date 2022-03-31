@@ -1,0 +1,63 @@
+    @charset "UTF-8";
+
+    body {
+        margin:0 auto;
+        width:375px;
+        text-align: center;
+    }
+
+    header {
+        color:white;
+        background-color:red;
+        font-weight: bold;
+        height: 63px;
+        line-height: 63px;
+        font-family:"メイリオ";
+    }
+
+    .main-image img{
+        width:375px;
+        object-fit: cover;
+    }
+
+    .profile {
+        color:white;
+        background-color:red;
+        width:100px;
+        height:40px;
+        line-height: 40px;
+        margin:0 auto;
+        margin-top: 60px;
+        border-radius: 30px;
+    }
+
+    .profile-image img{
+        width: 100px;
+        height:100px;
+        object-fit: cover;
+        object-position: 0 10px;
+        border-radius: 100%;
+        background-color: red;
+        display: block;
+        margin:0 auto;
+        margin-top: 50px;
+    }
+
+    .profile-name {
+        color:red;
+        margin-top: 30px;
+        margin-bottom:30px;
+        font-size: 20px;
+    }
+
+    .profile-career {
+        width:230px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .profile-career p {
+        color:red;
+        font-size:10px;
+        padding-bottom: 10px;
+    }

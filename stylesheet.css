@@ -4,6 +4,12 @@
         margin:0 auto;
         width:375px;
         text-align: center;
+        
+    }
+
+    .main-wrapper {
+        width: 375px;
+        background-color: antiquewhite;
     }
 
     header {
@@ -18,6 +24,7 @@
     .main-image img{
         width:375px;
         object-fit: cover;
+        position:relative;
     }
 
     .profile {
@@ -60,4 +67,188 @@
         color:red;
         font-size:10px;
         padding-bottom: 10px;
+    }
+
+    .soccer-wrapper {
+        position:relative;
+    }
+
+    .playing-soccer {
+        text-align: left;
+    }
+
+    .playing-soccer img {
+        width: 180px;
+        height:150px;
+        object-fit: cover;
+        object-position: 50 0px;
+        margin-left: 40px;
+        border-radius: 20px;
+        
+    }
+
+    .hobby h1 {
+        color:red;
+        margin-top: 50px;
+        margin-bottom:50px;
+        font-size: 20px;
+    }
+
+    .playing-soccer-text h1 {
+        color:red;
+        font-size: 16px;
+        background-color: white;
+        width: 180px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 30px;
+        position:absolute;
+        top:65px;
+        right: 30px;
+    }
+
+    .reading-wrapper {
+        position:relative;
+    }
+
+    .reading-book {
+        text-align: right;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .reading-book img {
+        width: 180px;
+        height:150px;
+        object-fit: cover;
+        object-position: 50 0px;
+        margin-right: 40px;
+        border-radius: 20px;
+        
+    }
+
+  
+
+    .reading-book-text h1 {
+        color:red;
+        font-size: 16px;
+        background-color: white;
+        width: 180px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 30px;
+        position:absolute;
+        top:65px;
+        left: 40px;
+    }
+
+
+    .cycling-wrapper {
+        position:relative;
+    }
+
+    .cycling {
+        text-align: left;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .cycling img {
+        width: 180px;
+        height:150px;
+        object-fit: cover;
+        object-position: 0 0px;
+        margin-left: 40px;
+        border-radius: 20px;
+        
+    }  
+
+    .cycling-text h1 {
+        color:red;
+        font-size: 16px;
+        background-color: white;
+        width: 110px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 30px;
+        position:absolute;
+        top:65px;
+        right: 90px;
+    }
+
+
+
+
+
+    .marketing-wrapper {
+        position:relative;
+    }
+
+    .marketing {
+        text-align: right;
+    }
+
+    .marketing img {
+        width: 180px;
+        height:150px;
+        object-fit: cover;
+        object-position: 50 0px;
+        margin-right: 40px;
+        border-radius: 20px;
+        
+    }
+
+    .skill h1 {
+        color:red;
+        margin-top: 50px;
+        margin-bottom:50px;
+        font-size: 20px;
+    }
+
+    .marketing-text h1 {
+        color:red;
+        font-size: 16px;
+        background-color: white;
+        width: 140px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 30px;
+        position:absolute;
+        top:65px;
+        left: 80px;
+    }
+
+    .programing-wrapper {
+        position:relative;
+    }
+
+    .programing {
+        text-align: left;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .programing img {
+        width: 180px;
+        height:150px;
+        object-fit: cover;
+        object-position: 50 0px;
+        margin-left: 40px;
+        border-radius: 20px;
+        
+    }
+
+  
+
+    .programing-text h1 {
+        color:red;
+        font-size: 16px;
+        background-color: white;
+        width: 150px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 30px;
+        position:absolute;
+        top:65px;
+        right: 70px;
     }
